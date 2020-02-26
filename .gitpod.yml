@@ -1,0 +1,10 @@
+tasks:
+  - init: |
+      lein install
+      lein test
+
+vscode:
+  extensions:
+    - avli.clojure@0.12.0:3OhMaH4jHCZmn80hl1OXkw==
+image:
+  file: .gitpod.Dockerfile
